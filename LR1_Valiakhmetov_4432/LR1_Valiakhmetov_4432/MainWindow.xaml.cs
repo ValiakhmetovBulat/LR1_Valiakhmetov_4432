@@ -24,5 +24,10 @@ namespace LR1_Valiakhmetov_4432
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(tb1.Text);
+        }
     }
 }
